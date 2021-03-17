@@ -1,0 +1,168 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.sve{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.crni{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+.unutrasnji{
+    width: 100%;
+    height: 100%;
+    padding: 50;
+}
+label{
+    font-size: 23px;
+
+}
+input{
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    font-size: 23px;
+    border-bottom: 2px solid grey;
+    margin-bottom: 20px;
+}
+
+#dugmeRacunaj{
+    background-color: white;
+    color: black;
+    margin-bottom: 25px;
+}
+.bijeli{
+    width: 70%;
+    height: 100%;
+}
+.bijeliDonji{
+    width: 100%;
+    height: 50%;
+}
+.bijeliGornji{
+    width: 100%;
+    height: 50%;
+}
+#Izbornik{
+    width: 100%;
+    height: 100%;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+#IzbornikDugme{
+    
+}
+.IzbornikStavka{
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+nav{
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: rgb(23, 46, 148);
+    color: white;
+}
+.poredNava{
+    width: 75%;
+    height: 100%;
+    float: left;
+    padding-left: 15px;
+}
+.wraperZaSliku{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+h2{
+    float: left;
+}
+h4{
+    font-size: 25px;
+    margin-top: 15px;
+}
+img{
+    height: 225px;
+    width: 225px;
+    display: block;
+}
+
+@media only screen and (max-width:600px){
+   *{
+       margin:0;
+       padding:0;
+       display: flex;
+       box-sizing: border-box;
+       flex-direction: column-reverse;
+       
+   }
+   .sve{
+       height: auto;
+   }
+   .crni{
+       width:100%;
+       top:100%;
+
+   }
+   .unutrasnji{
+       padding:5%
+       
+   }
+
+   
+   .bijeli{
+       width:100%;
+       flex-direction: column;
+   }
+   .bijeliGornji{
+       width:100%;
+       
+   }
+   #izbornik{
+    display: inline-block;
+    
+   }
+   nav{
+       
+       width:100%;
+       padding:5%;
+       height: 20%;
+       
+    
+   }
+   
+   .IzbornikStavka{
+       display:flex;
+       flex-direction: row;
+   }
+   a.IzbornikStavka{
+       display:inline-block;
+   }
+
+   .poredNava{
+       display:none;
+   }
+
+   .bijeliDonji{
+       overflow-y: scroll;
+       display:inline-block;
+   }
+   .wraperZaSliku{
+       width:50%;
+   }
+
+}
